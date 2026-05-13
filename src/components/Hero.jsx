@@ -1,23 +1,32 @@
 function Hero() {
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-500 via-pink-500 to-orange-400">
-      <div className="text-center text-white px-4">
-        <p className="text-xl mb-2">Hey, I'm</p>
-        <h1 className="text-6xl font-bold mb-4">Eliana</h1>
-        <p className="text-2xl mb-8">Web Developer + Writer</p>
+    <section className="min-h-screen flex items-center justify-center bg-gray-950 px-6">
+      <div className="text-center max-w-2xl">
+        <p className="text-sm font-mono text-emerald-400 tracking-widest uppercase mb-4">
+          Hello, world — I'm
+        </p>
+        <h1 className="text-7xl font-extrabold text-white mb-4 tracking-tight">
+          Eliana
+        </h1>
+        <p className="text-lg text-gray-400 mb-2 font-medium">
+          Developer in Training
+        </p>
+        <p className="text-xl text-gray-300 mb-10 leading-relaxed">
+          Learning by building. Growing every day
+        </p>
 
-        <div className="flex gap-4 justify-center">
+        <div className="flex gap-4 justify-center flex-wrap">
           <a
             href="#projects"
-            className="bg-white text-purple-600 px-6 py-3 rounded-full font-semibold hover:scale-105 transition"
+            className="bg-emerald-500 hover:bg-emerald-400 text-gray-950 px-7 py-3 rounded-lg font-semibold transition-colors duration-200"
           >
-            View Projects
+            View my work
           </a>
           <a
             href="#contact"
-            className="border-2 border-white px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-purple-600 transition"
+            className="border border-gray-600 hover:border-gray-400 text-gray-300 hover:text-white px-7 py-3 rounded-lg font-semibold transition-colors duration-200"
           >
-            Contact
+            Contact me
           </a>
         </div>
       </div>
