@@ -28,7 +28,7 @@ const socials = [
 
 function Contact() {
   const formRef = useRef();
-  const [status, setStatus] = useState(null); // null | "success" | "error"
+  const [status, setStatus] = useState(null);
   const [sending, setSending] = useState(false);
 
   function handleSubmit(e) {
@@ -50,18 +50,18 @@ function Contact() {
   }
 
   return (
-    <section id="contact" className="bg-gray-950 px-6 py-24">
+    <section id="contact" className="bg-[#1c0f0a] px-6 py-24">
       <div className="max-w-xl mx-auto">
-        <h2 className="text-3xl font-bold text-white mb-4 text-center">
+        <h2 className="text-3xl font-bold text-[#fef3e2] mb-4 text-center">
           Contact
         </h2>
-        <p className="text-gray-400 text-center mb-10">
+        <p className="text-[#fdba74] text-center mb-10">
           Have an opportunity or just want to connect? Send me a message.
         </p>
 
         <form ref={formRef} onSubmit={handleSubmit} className="flex flex-col gap-5">
           <div>
-            <label className="block text-sm font-medium text-gray-300 mb-1">
+            <label className="block text-sm font-medium text-[#fef3e2] mb-1">
               Name
             </label>
             <input
@@ -69,11 +69,11 @@ function Contact() {
               name="from_name"
               required
               placeholder="Your name"
-              className="w-full bg-gray-800 border border-gray-700 text-gray-100 placeholder-gray-500 rounded-lg px-4 py-3 focus:outline-none focus:border-emerald-500 transition-colors duration-200"
+              className="w-full bg-[#2d1810] border border-[#9a3412]/40 text-[#fef3e2] placeholder-[#fdba74]/50 rounded-lg px-4 py-3 focus:outline-none focus:border-[#9a3412] transition-colors duration-200"
             />
           </div>
           <div>
-            <label className="block text-sm font-medium text-gray-300 mb-1">
+            <label className="block text-sm font-medium text-[#fef3e2] mb-1">
               Email
             </label>
             <input
@@ -81,11 +81,11 @@ function Contact() {
               name="from_email"
               required
               placeholder="your@email.com"
-              className="w-full bg-gray-800 border border-gray-700 text-gray-100 placeholder-gray-500 rounded-lg px-4 py-3 focus:outline-none focus:border-emerald-500 transition-colors duration-200"
+              className="w-full bg-[#2d1810] border border-[#9a3412]/40 text-[#fef3e2] placeholder-[#fdba74]/50 rounded-lg px-4 py-3 focus:outline-none focus:border-[#9a3412] transition-colors duration-200"
             />
           </div>
           <div>
-            <label className="block text-sm font-medium text-gray-300 mb-1">
+            <label className="block text-sm font-medium text-[#fef3e2] mb-1">
               Message
             </label>
             <textarea
@@ -93,20 +93,20 @@ function Contact() {
               rows={5}
               required
               placeholder="Your message..."
-              className="w-full bg-gray-800 border border-gray-700 text-gray-100 placeholder-gray-500 rounded-lg px-4 py-3 focus:outline-none focus:border-emerald-500 transition-colors duration-200 resize-none"
+              className="w-full bg-[#2d1810] border border-[#9a3412]/40 text-[#fef3e2] placeholder-[#fdba74]/50 rounded-lg px-4 py-3 focus:outline-none focus:border-[#9a3412] transition-colors duration-200 resize-none"
             />
           </div>
 
           <button
             type="submit"
             disabled={sending}
-            className="bg-emerald-500 hover:bg-emerald-400 disabled:opacity-50 disabled:cursor-not-allowed text-gray-950 font-semibold px-6 py-3 rounded-lg transition-colors duration-200"
+            className="bg-[#9a3412] hover:bg-[#b45309] disabled:opacity-50 disabled:cursor-not-allowed text-[#fef3e2] font-semibold px-6 py-3 rounded-lg transition-colors duration-200"
           >
             {sending ? "Sending..." : "Send message"}
           </button>
 
           {status === "success" && (
-            <p className="text-emerald-400 text-sm text-center">
+            <p className="text-[#15803d] text-sm text-center">
               Message sent! I'll get back to you soon.
             </p>
           )}
@@ -125,7 +125,7 @@ function Contact() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label={name}
-              className="text-gray-400 hover:text-emerald-400 transition-colors duration-200"
+              className="text-[#fdba74] hover:text-[#b45309] transition-colors duration-200"
             >
               {icon}
             </a>

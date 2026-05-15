@@ -12,16 +12,16 @@ const skills = [
 
 function Skills() {
   return (
-    <section id="skills" className="bg-gray-950 px-6 py-24">
+    <section id="skills" className="bg-[#1c0f0a] px-6 py-24">
       <div className="max-w-3xl mx-auto">
-        <h2 className="text-3xl font-bold text-white mb-12 text-center">
+        <h2 className="text-3xl font-bold text-[#fef3e2] mb-12 text-center">
           Skills
         </h2>
         <div className="flex flex-wrap justify-center gap-3">
           {skills.map((skill) => (
             <span
               key={skill}
-              className="bg-gray-800 border border-gray-700 text-emerald-400 font-medium text-sm px-5 py-2 rounded-full hover:border-emerald-500 transition-colors duration-200"
+              className="bg-[#2d1810] border border-[#9a3412]/40 text-[#b45309] font-medium text-sm px-5 py-2 rounded-full hover:border-[#b45309] transition-colors duration-200"
             >
               {skill}
             </span>

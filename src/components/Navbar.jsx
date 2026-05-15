@@ -1,27 +1,27 @@
 function Navbar() {
   return (
-    <nav className="fixed top-0 w-full bg-gray-950/90 backdrop-blur-sm border-b border-gray-800 z-50">
+    <nav className="fixed top-0 w-full bg-[#1c0f0a]/90 backdrop-blur-sm border-b border-[#9a3412]/30 z-50">
       <div className="max-w-5xl mx-auto px-4 py-4 flex justify-between items-center">
-        <span className="text-xl font-bold text-emerald-400">&lt;/Eliana&gt;</span>
+        <span className="font-playfair text-xl font-bold text-[#b45309]">&lt;/Eliana&gt;</span>
 
-        <ul className="flex gap-6 text-gray-300 font-medium">
+        <ul className="flex gap-6 text-[#fef3e2] font-medium">
           <li>
-            <a href="#projects" className="hover:text-emerald-400 transition">
+            <a href="#projects" className="hover:text-[#b45309] transition">
               Projects
             </a>
           </li>
           <li>
-            <a href="#about" className="hover:text-emerald-400 transition">
+            <a href="#about" className="hover:text-[#b45309] transition">
               About
             </a>
           </li>
           <li>
-            <a href="#resume" className="hover:text-emerald-400 transition">
+            <a href="#resume" className="hover:text-[#b45309] transition">
               Resume
             </a>
           </li>
           <li>
-            <a href="#contact" className="hover:text-emerald-400 transition">
+            <a href="#contact" className="hover:text-[#b45309] transition">
               Contact
             </a>
           </li>
