@@ -1,23 +1,9 @@
 const projects = [
   {
-    title: "Project Title",
-    description: "Short description of what this project does and what problem it solves.",
-    tags: ["React", "Tailwind"],
-    github: "#",
-    live: "#",
-  },
-  {
-    title: "Project Title",
-    description: "Short description of what this project does and what problem it solves.",
-    tags: ["Python", "SQL"],
-    github: "#",
-    live: "#",
-  },
-  {
-    title: "Project Title",
-    description: "Short description of what this project does and what problem it solves.",
-    tags: ["JavaScript", "HTML", "CSS"],
-    github: "#",
+    title: "Water Reminder",
+    description: "A water intake tracker that reminds you to drink every 30 minutes. Features an animated glass that empties over time, daily goal tracking with streak counter, and personalized experience saved locally.",
+    tags: ["React", "Vite", "Tailwind CSS", "localStorage", "SVG Animation"],
+    github: "https://github.com/ayarachi/pomodoro-water",
     live: "#",
   },
 ];
