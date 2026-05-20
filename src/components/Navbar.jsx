@@ -16,7 +16,7 @@ function Navbar() {
             </a>
           </li>
           <li>
-            <a href="#resume" className="hover:text-[#b45309] transition">
+            <a href="/eliana-ayarachi-resume.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-[#b45309] transition">
               Resume
             </a>
           </li>
