@@ -1,6 +1,6 @@
 function Navbar() {
   return (
-    <nav className="fixed top-0 w-full bg-[#1c0f0a]/90 backdrop-blur-sm border-b border-[#9a3412]/30 z-50">
+    <nav className="fixed top-0 w-full bg-[#1c0f0a]/85 backdrop-blur-[10px] border-b border-[#9a3412]/30 z-50">
       <div className="max-w-5xl mx-auto px-4 py-4 flex justify-between items-center">
         <span className="font-playfair text-xl font-bold text-[#b45309]">&lt;/Eliana&gt;</span>
 
